@@ -1,0 +1,95 @@
+body{
+    overflow: hidden;
+    margin:10px;
+ 
+}
+
+
+.logosec{
+    display: flex;
+}
+
+#logo{
+     height:110px;
+     width:140px;
+     margin:auto;
+    
+     justify-content: center;
+
+}
+
+h6{
+   
+    border-radius: 4px;
+text-align: center;
+}
+    
+
+
+.chatsec{
+    
+   background-color: rgb(92, 166, 235);
+    border-left:2px solid black;
+    overflow:scroll;
+    height:30rem;
+    width:100%;
+    padding:2px;
+
+}
+
+
+.participants{
+    background-color: hwb(211 2% 56%);
+    color:white;
+    padding:4px;
+    text-align: center;
+}
+
+
+.msg{
+    background:rgb(197, 196, 196);
+    margin:17px 12px;
+    border:1px solid rgb(186, 178, 178);
+    padding:10px;
+    border-radius: 5px;
+}
+.msgsection{
+    border-left:2px solid black;
+}
+
+
+
+.right{
+    float:right;
+    clear:both;
+}
+
+.left{
+float:left;
+clear:both;
+}
+
+.send{   
+    
+    padding: 2px;
+    background-color: hwb(211 2% 56%);
+}
+
+form input{
+margin-left:15.5rem;
+width: 76rem;
+border-radius: 15px;
+padding:5px;
+}
+
+
+
+.btn img{
+    height:2rem;
+    width:2rem;
+    border-radius: 2.5rem;;
+}
+.footer{
+   opacity: 0.6;
+
+}
